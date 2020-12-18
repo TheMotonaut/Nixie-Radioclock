@@ -8,6 +8,8 @@ disp_clk = Pin('', mode=Pin.OUT) #Clock pin
 disp_data = Pin('', mode=Pin.OUT) #Data pin
 disp_lat = Pin('', mode=Pin.OUT) #Latch pin
 disp_blk = Pin('', mode=Pin.OUT) #Blanking pin
+disp_sw0 = Pin('', mode=Pin.IN, pull=Pin.PULL_UP)
+disp_sw1 = Pin('', mode=Pin.IN, pull=Pin.PULL_UP)
 
 #Default values for display
 clk_pin.value(1)
