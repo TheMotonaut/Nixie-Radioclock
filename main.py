@@ -2,8 +2,7 @@ from lib import display
 
 
 while True:
-    time.sleep(1)
-
+    time.sleep(0.1)
 
     if(disp_sw0.value() && disp_sw1.value()):
         curr_time = time.localtime()
